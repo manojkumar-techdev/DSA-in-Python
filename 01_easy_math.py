@@ -45,3 +45,24 @@ if isEven(n):
     print("true")
 else:
     print("false")
+
+
+
+# 3 -- ++++++++++++++++++++++++++++++++++++
+# sum of natural numbers
+# [Naive Approach] Loop 
+# O(n) Time and O(1) Space
+
+def findSum(n):
+    sum = 0
+    i = 1
+    
+    # Iterating over all the numbers between 1 to n
+    while i <= n:
+        sum = sum + i
+        i = i + 1
+    return sum
+
+n = 7
+
+print(findSum(n))
