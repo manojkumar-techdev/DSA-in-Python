@@ -23,3 +23,25 @@ if isEven(n):
     print("number is even")
 else:
     print("number is false")
+
+
+
+# 2 -- ++++++++++++++++++++++++++++++++++++
+# check even or odd number
+# Efficient Approach
+# Bitwise AND Operator
+# O(1) Time and O(1) Space
+
+def isEven(n):
+    # taking bitwise and of n with 1 
+    if (n & 1) == 0:
+        return True
+    else:
+        return False
+
+n = 19
+
+if isEven(n):
+    print("true")
+else:
+    print("false")
