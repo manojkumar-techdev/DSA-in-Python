@@ -66,3 +66,21 @@ def findSum(n):
 n = 7
 
 print(findSum(n))
+
+
+
+# 4 -- ++++++++++++++++++++++++++++++++++++
+# sum of natural numbers
+# [Better Approach] Recursion 
+# O(n) and O(n) Space
+
+def findSum(n):
+    
+    # base condition
+    if n == 1:
+        return 1
+    return n + findSum(n - 1)
+
+n = 25
+
+print(findSum(n))
