@@ -84,3 +84,19 @@ def findSum(n):
 n = 25
 
 print(findSum(n))
+
+
+
+# 5 -- ++++++++++++++++++++++++++++++++++++
+# sum of natural numbers
+# [Expected Approach] Formula Based Method
+# O(1) Time and O(1) Space
+
+def findSum(n):
+    
+    # Using mathematical formula to compute
+    # sum of first n natural numbers
+    return n * (n + 1) // 2
+    
+n = 5
+print(findSum(n))
